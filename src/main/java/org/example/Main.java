@@ -17,6 +17,6 @@ public class Main {
 
         System.out.println(numbers);
 
-        //Scope => Kapsam, alan, bölge, bir kodun kapsadığı alan...
+        //Scope => Kapsam, alan, bölge, bir kodun kapsadığı alan..
     }
 }
