@@ -8,7 +8,7 @@ public class Main {
         String text = "Merhaba Tobeto";
         System.out.println(text);
 
-        Integer number = 10;
+        //Integer number = 10;
 
         List<Integer> numbers = new ArrayList<Integer>();
         numbers.add(1);
@@ -17,6 +17,24 @@ public class Main {
 
         System.out.println(numbers);
 
-        //Scope => Kapsam, alan, bölge, bir kodun kapsadığı alan..
+
+        String state = "A";
+        switch(state){
+            case "A":
+                System.out.println("A durumu");
+                break;
+            case "B":
+                System.out.println("B durumu");
+                break;
+            case "C":
+                System.out.println("C durumu");
+                break;
+            default:
+                System.out.println("Bilinmeyen durumlar");
+        }
     }
+
+
+
+
 }
