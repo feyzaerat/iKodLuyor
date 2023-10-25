@@ -83,20 +83,26 @@ public class Main {
         //OOP
 
         Product product = new Product();
-        product.name    = "Laptop";
-        product.price   = 50;
-        product.discount(10);
+        product.setName("Laptop");
+        product.setPrice(50);
+
 
         // constructor => yapıcı method
         Product product2 = new Product("Mouse", 10);
-        product2.name    = "Mouse";
-        product2.price   = 10;
+        //product2.name    = "Mouse";
+        //product2.price   = 10;
         product2.discount(5);
 
-        System.out.println(product.price);
-        System.out.println(product2.price);
+        //System.out.println(product.price);
+        //System.out.println(product2.price);
 
+        System.out.println(product.getName());
+        System.out.println(product.getPrice());
+        System.out.println("_________________________________________________");
 
+        System.out.println(product2.getName());
+        System.out.println(product2.getPrice());
+        System.out.println("_________________________________________________");
 
 
 

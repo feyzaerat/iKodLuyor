@@ -2,15 +2,16 @@ package org.example;
 
 public class Product {
     public Product(){
-        System.out.println("Boş ctor çalıştırıldı..");
+
     }
-    public Product(String name, double price){
-        //System.out.println("Name parametresi ile çalıştırıldı..");
+
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
-    public String name;
-    public double price;
+
+    private String name;
+    private double price;
 
     //method
 
@@ -24,4 +25,19 @@ public class Product {
         price = price - discount;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
