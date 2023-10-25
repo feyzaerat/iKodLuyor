@@ -87,8 +87,8 @@ public class Main {
         product.price   = 50;
         product.discount(10);
 
-
-        Product product2 = new Product();
+        // constructor => yapıcı method
+        Product product2 = new Product("Mouse", 10);
         product2.name    = "Mouse";
         product2.price   = 10;
         product2.discount(5);
