@@ -65,7 +65,6 @@ public class Main {
 
         System.out.println(names[0]);
         System.out.println(names2[0]);
-
         System.out.println("_________________________________________________");
 
         for (int i = 0; i < names2.length; i++){
@@ -78,6 +77,19 @@ public class Main {
             System.out.println(name);
 
         }
+
+        System.out.println("_________________________________________________");
+
+        //OOP
+
+        Product product = new Product();
+        product.name    = "Laptop";
+        product.price   = 50;
+
+
+        Product product2 = new Product();
+        product2.name    = "Mouse";
+        product2.price   = 10;
 
 
 
