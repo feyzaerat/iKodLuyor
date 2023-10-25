@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.models.*;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -103,6 +105,10 @@ public class Main {
         System.out.println(product2.getName());
         System.out.println(product2.getPrice());
         System.out.println("_________________________________________________");
+
+
+        Category category  = new Category();
+        Order order        = new Order();
 
 
 
