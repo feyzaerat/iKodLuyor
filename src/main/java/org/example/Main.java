@@ -85,11 +85,17 @@ public class Main {
         Product product = new Product();
         product.name    = "Laptop";
         product.price   = 50;
+        product.discount(10);
 
 
         Product product2 = new Product();
         product2.name    = "Mouse";
         product2.price   = 10;
+        product2.discount(5);
+
+        System.out.println(product.price);
+        System.out.println(product2.price);
+
 
 
 
