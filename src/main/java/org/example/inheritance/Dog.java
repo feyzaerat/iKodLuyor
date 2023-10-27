@@ -1,2 +1,8 @@
-package org.example.inheritance;public class Dog {
+package org.example.inheritance;
+
+public class Dog extends Animal{
+
+    public void bark(){
+
+    }
 }
