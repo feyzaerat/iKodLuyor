@@ -6,6 +6,11 @@ public class Fish  extends Animal{
     }
 
     @Override
+    public void makeSound() {
+
+    }
+
+    @Override
     public void breathe() {
         //this  => içinde bulunduğum class
         //super => kalıtım aldığım class'ı ifade eder.

@@ -1,6 +1,8 @@
 package org.example.inheritance;
 
-public class Animal {
+public abstract class Animal {
+    public abstract void  makeSound();
+
     public void eat(){
 
     }
