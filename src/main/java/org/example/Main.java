@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.inheritance.Animal;
+import org.example.inheritance.Bird;
+import org.example.inheritance.Dog;
+import org.example.inheritance.Fish;
 import org.example.models.*;
 
 import java.util.ArrayList;
@@ -110,6 +114,27 @@ public class Main {
         Category category  = new Category();
         Order order        = new Order();
 
+
+
+        Bird bird = new Bird();
+        Dog dog   = new Dog();
+        Fish fish = new Fish();
+        bird.breathe();
+        dog.bark();
+        fish.breathe();
+
+        System.out.println("_________________________________________________");
+
+        //Polymorphism
+
+        Animal animal  = new Bird();
+        Animal animal1 = new Dog();
+        Animal animal2 = new Fish();
+
+        //casting
+
+        ((Bird)animal).fly();
+        Bird bird1 = (Bird)animal;
 
 
     }
